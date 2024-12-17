@@ -23,7 +23,7 @@ include = [
 bytes = "1.2"
 http = "1"
 http-body = "1"
-tokio = { version = "1", features = ["sync"] }
+tokio = { git = "https://github.com/Fancy2209/tokio.git", branch = "Haiku" }
 
 # Optional
 
